@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(243, 200, 200);
+    margin: 0px;
+}
+header img{
+    margin-bottom: -5px;
+}
+#ana-menu{
+    
+    height: 75px;
+    background-color: rgb(235, 192, 192);
+    text-align: center;
+}
+#isim{
+    font-weight: bold;
+    float: left;
+}
+#menu{
+    padding-top: 13px;
+}
+#menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-size: 26px;
+    }
+#menu li {
+        float: right;
+    }  
+#menu li a {
+        display: block;
+        padding:12px 14px;
+        text-decoration: none;
+        
+    }
+#isim{
+    color: rgb(114, 53, 53);
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+li .aktif{
+    color: red;
+}
+li a:hover{
+    color: rgb(138, 46, 46);
+    background-color: rgb(231, 184, 202);
+}
+
+li a:active{
+    color: black;
+}
+.container{
+    margin-top: 20px;
+    width: 130  0px;
+    text-align: center;
+    margin-left: 370px;
+    
+}
+.icerik{
+    background-color: rgb(243, 197, 213);
+    margin-bottom: 20px;
+    width: 1000px;
+    height: 800px;
+}
+#foto{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+#foto img{
+    width: 100%;
+    height: 750px;
+    padding: 0px;
+    margin: 0px;
+}
+#tanitim {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 40px;
+    width: 450px;
+    height: 100%;
+    float: left;
+}
+#alt-isim{
+    font-size: 30px;
+    color: rgb(61, 59, 59);
+    text-shadow: 1px 1px rgb(0, 0, 0)
+}
+#inputlar{
+    margin-left: 30px;
+    text-align: left;
+
+}
+#div-adi{
+    margin-bottom: 20px;
+}
+#lbl-adi{
+    font-size: 30px;
+}
+#ad{
+    outline: none;
+    width: 950px;
+    height: 75px;
+    font-size:30px;
+    background-color: rgb(218, 218, 218);
+}
+#div-soyadi{
+    margin-bottom: 20px;
+}
+#lbl-soyadi{
+    font-size: 30px;
+}
+#soyad{
+    outline: none;
+    width: 950px;
+    height: 75px;
+    font-size:30px;
+    background-color: rgb(218, 218, 218);
+}
+input::placeholder{
+    padding-left: 10px;
+    font-size: 20px;
+}
+#ad:hover{
+    border: 1px solid #84a5ff;;
+}
+#soyad:hover{
+    border: 1px solid #84a5ff;;
+}
+input[type="file"] {
+    cursor: pointer !important;
+    font: 300 14px sans-serif;
+    color:#3b3b3b;
+    padding-bottom: 10px;
+  }
+  input[type="file"]::-webkit-file-upload-button
+  {
+    font: 300 14px  sans-serif;
+    background: #84a5ff;
+    border: 0;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+    input[type=submit]{
+    width: 950px;
+    font-size: 30px;
+    background: #84a5ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
